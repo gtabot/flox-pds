@@ -1,0 +1,9 @@
+{
+    email admin@localhost
+    admin off
+}
+
+pds.test {
+    tls internal
+    reverse_proxy pds:3000
+}
